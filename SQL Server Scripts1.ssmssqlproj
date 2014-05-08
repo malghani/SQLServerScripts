@@ -1,0 +1,532 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQL Server Scripts1">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="sv-sqldev01vm:EFG-DOMAIN\amaqsood">
+          <Created>2014-03-24T11:10:09.9012191-05:00</Created>
+          <Type>SQL</Type>
+          <Server>sv-sqldev01vm</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SV-SQLPRODVM:EFG-DOMAIN\amaqsood">
+          <Created>2014-01-17T10:17:44.5426528-06:00</Created>
+          <Type>SQL</Type>
+          <Server>SV-SQLPRODVM</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SV-SQLPRODVM:SSRS_USER">
+          <Created>2014-03-13T16:04:44.5076165-05:00</Created>
+          <Type>SQL</Type>
+          <Server>SV-SQLPRODVM</Server>
+          <UserName>SSRS_USER</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sv-Cube03:EFG-DOMAIN\amaqsood">
+          <Created>2013-09-25T12:23:22.5679864-05:00</Created>
+          <Type>SQL</Type>
+          <Server>sv-Cube03</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+        <ConnectionNode Name="sv-SQL02:EFG-DOMAIN\amaqsood">
+          <Created>2013-09-25T12:23:31.0701499-05:00</Created>
+          <Type>SQL</Type>
+          <Server>sv-SQL02</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+        <ConnectionNode Name="sv-SQL03:EFG-DOMAIN\amaqsood">
+          <Created>2013-09-25T12:23:39.3538426-05:00</Created>
+          <Type>SQL</Type>
+          <Server>sv-SQL03</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+        <ConnectionNode Name="sv-SQL04:EFG-DOMAIN\amaqsood">
+          <Created>2013-09-25T12:23:45.5470823-05:00</Created>
+          <Type>SQL</Type>
+          <Server>sv-SQL04</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+        <ConnectionNode Name="sv-SQL05:EFG-DOMAIN\amaqsood">
+          <Created>2013-09-25T12:23:55.7807479-05:00</Created>
+          <Type>SQL</Type>
+          <Server>sv-SQL05</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+        <ConnectionNode Name="sv-SQL06:EFG-DOMAIN\amaqsood">
+          <Created>2013-09-25T12:24:04.2516022-05:00</Created>
+          <Type>SQL</Type>
+          <Server>sv-SQL06</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="_ETL_T2T3_Final.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-sqldev01vm:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-sqldev01vm</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>_ETL_T2T3_Final.sql</FullPath>
+        </FileNode>
+        <FileNode Name="_T2T3_MoveDimensions.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-sqldev01vm:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-sqldev01vm</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>_T2T3_MoveDimensions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ALLSP.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ALLSP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ActiveDirectoryUsers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-sqldev01vm:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-sqldev01vm</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ActiveDirectoryUsers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BadAgreements.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-sqldev01vm:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-sqldev01vm</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>BadAgreements.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BakupAndShrink.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-sqldev01vm:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-sqldev01vm</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>BakupAndShrink.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CallExtraction.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SV-SQLPRODVM:False:SSRS_USER</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SV-SQLPRODVM</AssociatedConnSrvName>
+          <AssociatedConnUserName>SSRS_USER</AssociatedConnUserName>
+          <FullPath>CallExtraction.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CANCELFEE.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>CANCELFEE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Contracts-Reserves-Claims-Earnings.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Contracts-Reserves-Claims-Earnings.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DBScript-SalesTier1-Release-3-Patch-2-14-2014.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL06</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DBScript-SalesTier1-Release-3-Patch-2-14-2014.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DBScript-SalesTier1-Release-3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL06</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>C:\TFS\Tier 1 Sales Reporting\Tier1Reports-Release-3\DB Script\DBScript-SalesTier1-Release-3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DisbursementQueryBETTER.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-sqldev01vm:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-sqldev01vm</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DisbursementQueryBETTER.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FactSalesAggIndexes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-sqldev01vm:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-sqldev01vm</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>FactSalesAggIndexes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FactSalesIndexes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-sqldev01vm:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-sqldev01vm</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>FactSalesIndexes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GetDailyDataTier1Sales.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL06</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>GetDailyDataTier1Sales.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GetDailyDataTier1SalesYTD.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL06</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>GetDailyDataTier1SalesYTD.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GetTier23SalesData2006.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL06</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>GetTier23SalesData2006.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ImportProdSalesT1Data.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-sqldev01vm:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-sqldev01vm</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ImportProdSalesT1Data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="JobHistory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL06</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>JobHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Jobs-Cube03.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-Cube03:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-Cube03</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Jobs-Cube03.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Jobs-SQL02.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Jobs-SQL02.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Jobs-SQL05.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL05:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL05</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Jobs-SQL05.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Jobs-SQL06.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL06</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Jobs-SQL06.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LoadProductHierarchy.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL06</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LoadProductHierarchy.sql</FullPath>
+        </FileNode>
+        <FileNode Name="NOEXEC.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>NOEXEC.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Parition.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL06</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Parition.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL06</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Performance.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PremiumSummary.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL06</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>PremiumSummary.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ProcessInitialDataAggregate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-sqldev01vm:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-sqldev01vm</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ProcessInitialDataAggregate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ProductHierarchyALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL06</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ProductHierarchyALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ProductionOpenRowSetRefresh.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL06</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ProductionOpenRowSetRefresh.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ProvisionUsers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SV-SQLPRODVM:False:SSRS_USER</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SV-SQLPRODVM</AssociatedConnSrvName>
+          <AssociatedConnUserName>SSRS_USER</AssociatedConnUserName>
+          <FullPath>ProvisionUsers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="QA_Tier23.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-sqldev01vm:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-sqldev01vm</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>QA_Tier23.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ReInsuranceBugTest.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL06</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ReInsuranceBugTest.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ReinsuranceStuff.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL06</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ReinsuranceStuff.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ReportTier3TableJob.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-sqldev01vm:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-sqldev01vm</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ReportTier3TableJob.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ReportsSP.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ReportsSP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="RollUpPrior2007.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-sqldev01vm:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-sqldev01vm</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>RollUpPrior2007.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SAL002_Tier1_Sales_ETL_SPs.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SAL002_Tier1_Sales_ETL_SPs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SAL002_Tier_1_Sales.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SAL002_Tier_1_Sales.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SALES_FULL_ETL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SALES_FULL_ETL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SEC_SPs.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL06</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SEC_SPs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ShrinkFiles.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-sqldev01vm:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-sqldev01vm</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ShrinkFiles.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SpaceUsed.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-sqldev01vm:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-sqldev01vm</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SpaceUsed.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SPLIT_FN.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL06</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SPLIT_FN.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-sqldev01vm:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-sqldev01vm</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SSRS_SalesTier1_Gross_Monthly_Account_Performance.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL06</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SSRS_SalesTier1_Gross_Monthly_Account_Performance.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SSRS_SalesTier1_Revenue_Trend.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL06</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SSRS_SalesTier1_Revenue_Trend.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SaleTier1_SPs.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SaleTier1_SPs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SalesReleaseDBRollBack.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SalesReleaseDBRollBack.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SalesReleaseDBScript.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL06</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SalesReleaseDBScript.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SalesSecurity.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL06</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SalesSecurity.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SalesTier1-ALLSP-11-25-13.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL06</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SalesTier1-ALLSP-11-25-13.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SalesTier1_Posted_Month_ETL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL06</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SalesTier1_Posted_Month_ETL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SourceDataFilter.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL06</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SourceDataFilter.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SourceDataProfiling.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SourceDataProfiling.sql</FullPath>
+        </FileNode>
+        <FileNode Name="StagedParitionTables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-sqldev01vm:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-sqldev01vm</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>StagedParitionTables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="T2T3DataFix.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-sqldev01vm:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-sqldev01vm</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>T2T3DataFix.sql</FullPath>
+        </FileNode>
+        <FileNode Name="T3SchemaChanges.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-sqldev01vm:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-sqldev01vm</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>T3SchemaChanges.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Tier1SalesAgreementPostDate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL02:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL02</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Tier1SalesAgreementPostDate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Tier2Work.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL06</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Tier2Work.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Tier2n3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL06</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Tier2n3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Tier3CompareWithStage.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL06</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Tier3CompareWithStage.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Tier3FixScript.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-sqldev01vm:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-sqldev01vm</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Tier3FixScript.sql</FullPath>
+        </FileNode>
+        <FileNode Name="WorkYTD.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL06</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>WorkYTD.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spgetdataforTier2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL06</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>spgetdataforTier2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="usp_get_activedirectory_list.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SV-SQLPRODVM:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SV-SQLPRODVM</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_get_activedirectory_list.sql</FullPath>
+        </FileNode>
+        <FileNode Name="~Work.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sv-SQL06</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>~Work.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
