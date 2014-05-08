@@ -151,6 +151,18 @@
           <AssociatedConnUserName />
           <FullPath>BakupAndShrink.sql</FullPath>
         </FileNode>
+        <FileNode Name="BringDataIn.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>BringDataIn.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BringHistoryData.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>BringHistoryData.sql</FullPath>
+        </FileNode>
         <FileNode Name="CallExtraction.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SV-SQLPRODVM:False:SSRS_USER</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>SV-SQLPRODVM</AssociatedConnSrvName>
@@ -163,11 +175,29 @@
           <AssociatedConnUserName />
           <FullPath>CANCELFEE.sql</FullPath>
         </FileNode>
+        <FileNode Name="ClaimsPaidETL.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>ClaimsPaidETL.sql</FullPath>
+        </FileNode>
         <FileNode Name="Contracts-Reserves-Claims-Earnings.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL02:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>sv-SQL02</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Contracts-Reserves-Claims-Earnings.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DBScript-SalesTier1-Release-2.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DBScript-SalesTier1-Release-2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DBScript-SalesTier1-Release-3.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DBScript-SalesTier1-Release-3.sql</FullPath>
         </FileNode>
         <FileNode Name="DBScript-SalesTier1-Release-3-Patch-2-14-2014.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
@@ -271,6 +301,12 @@
           <AssociatedConnUserName />
           <FullPath>Parition.sql</FullPath>
         </FileNode>
+        <FileNode Name="Patch.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Patch.sql</FullPath>
+        </FileNode>
         <FileNode Name="Performance.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>sv-SQL06</AssociatedConnSrvName>
@@ -337,6 +373,12 @@
           <AssociatedConnUserName />
           <FullPath>ReportsSP.sql</FullPath>
         </FileNode>
+        <FileNode Name="RollBack-DBScript-SalesTier1-Release-3-Patch-2-14-2014.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>RollBack-DBScript-SalesTier1-Release-3-Patch-2-14-2014.sql</FullPath>
+        </FileNode>
         <FileNode Name="RollUpPrior2007.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-sqldev01vm:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>sv-sqldev01vm</AssociatedConnSrvName>
@@ -384,6 +426,12 @@
           <AssociatedConnSrvName>sv-SQL06</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SPLIT_FN.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery1.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery2.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-sqldev01vm:True</AssociatedConnectionMoniker>
@@ -463,6 +511,12 @@
           <AssociatedConnUserName />
           <FullPath>T2T3DataFix.sql</FullPath>
         </FileNode>
+        <FileNode Name="T2T3SchemaUpdate.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>T2T3SchemaUpdate.sql</FullPath>
+        </FileNode>
         <FileNode Name="T3SchemaChanges.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-sqldev01vm:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>sv-sqldev01vm</AssociatedConnSrvName>
@@ -474,6 +528,12 @@
           <AssociatedConnSrvName>sv-SQL02</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Tier1SalesAgreementPostDate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Tier1-SchemaUpdate-Release4.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Tier1-SchemaUpdate-Release4.sql</FullPath>
         </FileNode>
         <FileNode Name="Tier2Work.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
@@ -498,6 +558,24 @@
           <AssociatedConnSrvName>sv-sqldev01vm</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Tier3FixScript.sql</FullPath>
+        </FileNode>
+        <FileNode Name="UpdateETLSP.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>UpdateETLSP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="WaitState.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>WaitState.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Working.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Working.sql</FullPath>
         </FileNode>
         <FileNode Name="WorkYTD.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sv-SQL06:True</AssociatedConnectionMoniker>
